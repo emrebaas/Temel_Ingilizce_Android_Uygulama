@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="128dp"
+        android:layout_height="35dp"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/facebook"
+            android:background="@drawable/facebook"
+            android:linksClickable="true"
+            android:paddingLeft="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="128dp"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp"
+        android:layout_height="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/instagram"
+            android:linksClickable="true"
+            android:background="@drawable/instagram" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="128dp"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp"
+        android:linksClickable="true"
+        android:layout_height="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/twitter"
+            android:background="@drawable/twittter" />
+    </TableRow>
+</LinearLayout>

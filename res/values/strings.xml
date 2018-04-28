@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Temel İngilizce</string>
+
+    <array name="hayvan_isimleri">
+        <item>Aslan</item>
+        <item>At</item>
+        <item>Ayı</item>
+        <item>Balık</item>
+        <item>Deve</item>
+        <item>Domuz</item>
+        <item>Eşşek</item>
+        <item>Fare</item>
+        <item>Fil</item>
+        <item>İnek</item>
+        <item>Kaplumbağa</item>
+        <item>Keçi</item>
+        <item>Kedi</item>
+        <item>Kelebek</item>
+        <item>Köpek</item>
+        <item>Koyun</item>
+        <item>Kurbağa</item>
+        <item>Kuş</item>
+        <item>Maymun</item>
+        <item>Ördek</item>
+        <item>Örümcek</item>
+        <item>Tavşan</item>
+        <item>Tavuk</item>
+        <item>Tilki</item>
+        <item>Yılan</item>
+
+
+    </array>
+
+
+
+</resources>

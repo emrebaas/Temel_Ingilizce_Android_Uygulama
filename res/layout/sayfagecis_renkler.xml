@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/colorAccent"
+    android:id="@+id/renkarka">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="KIRMIZI"
+                android:layout_width="wrap_content"
+                android:background="#FF0000"
+                android:id="@+id/kirmizi"
+                android:layout_weight="1"
+                android:layout_height="70dp" />
+
+            <Button
+                android:text="SARI"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:id="@+id/sari"
+                android:layout_weight="1"
+                android:background="#FFFF00" />
+
+            <Button
+                android:text="MAVİ"
+                android:layout_width="wrap_content"
+                android:background="#0000FF"
+                android:layout_height="70dp"
+                android:id="@+id/mavi"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="YEŞİL"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="#00ff00"
+                android:id="@+id/yesil"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="KAHVE"
+                android:layout_width="wrap_content"
+                android:background="#8b4513"
+                android:layout_height="70dp"
+                android:id="@+id/kahverengi"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="BEYAZ"
+                android:layout_width="wrap_content"
+                android:background="#FFffff"
+                android:layout_height="70dp"
+                android:id="@+id/beyaz"
+                android:layout_weight="1"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="0.07"
+        android:layout_height="110dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="PEMBE"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="#FF00FF"
+                android:id="@+id/penbee"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="MOR"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="#800080"
+                android:id="@+id/mor"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="TURUNCU"
+                android:layout_width="wrap_content"
+                android:background="#ffa500"
+                android:layout_height="70dp"
+                android:id="@+id/truncii"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="0.01"
+        android:layout_height="110dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="GRİ"
+                android:layout_height="70dp"
+                android:id="@+id/gri"
+                android:background="#808080"
+                android:layout_weight="0.04"
+                android:layout_marginLeft="55dp"
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:text="SİYAH"
+                android:background="#000000"
+                android:layout_height="70dp"
+                android:id="@+id/siyah"
+                android:layout_weight="0.04"
+                android:layout_marginRight="55dp"
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="150dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/renlergeri"
+            android:layout_height="70dp"
+            android:background="@drawable/geritusuorta" />
+    </TableRow>
+</LinearLayout>

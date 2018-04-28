@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1"
+    android:background="@drawable/hayvan_arkaplan">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            app:srcCompat="@drawable/hayvanlaralemi"
+            android:id="@+id/imageView"
+            android:padding="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="85dp"
+            android:background="@android:color/background_light"
+            android:layout_marginTop="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_weight="0.17" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_weight="0.23">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="162dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Hayvan Seç"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/transparent" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:entries="@array/hayvan_isimleri"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Hayvan İsmi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hayvan_ismi"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:text="İngilizcesi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hayvan_ingilizce"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:text="Sesi Dinle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ses_dinle"
+                android:layout_marginTop="10dp"
+                style="@android:style/Widget.Button"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/aslan"
+                android:id="@+id/imageView2"
+                android:layout_width="150dp" />
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0.16">
+
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/hayvan_geri"
+            android:layout_marginLeft="113dp"
+            android:background="@drawable/geritusuorta"
+            android:layout_height="75dp" />
+    </TableRow>
+</LinearLayout>
